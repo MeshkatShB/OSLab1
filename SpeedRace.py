@@ -17,14 +17,14 @@
 #     result += r[j:]
 #     return result
 
-nList = []
-kList = []
 result = []
 finalResult = []
 index = []
-n, k, FinishCoordination = map(int, raw_input().split())
-nList = map(int, raw_input().split())
-kList = map(int, raw_input().split())
+n = 2
+k = 4
+FinishCoordination = 50
+nList = [100, 20]
+kList = [60, 10, 40, 80]
 # kList = merge_sort(kList)
 # nList = merge_sort(nList)
 kList = sorted(kList)
